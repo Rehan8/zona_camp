@@ -1,0 +1,2509 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Heading Section */
+.main-heading-section {
+  width: 100%;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px;
+}
+.main-heading-div {
+  padding: 0;
+  background-image: url(images/photo-2.jpg);
+  background-size: 100% 650px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+  animation: increase 60s linear 10ms infinite;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  z-index: -2;
+}
+p {
+  font-family: "Merriweather", serif;
+}
+.p1 {
+  font-family: "Fuzzy Bubbles", serif;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.p2 {
+  font-size: 25px;
+}
+.heading-text {
+  font-family: sans-serif;
+}
+.head-icon {
+  height: 20px;
+  width: 20px;
+}
+.heading-btn {
+  font-family: "Merriweather", serif;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  background-color: green;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  font-size: 25px;
+}
+.btn-icon {
+  height: 25px;
+  width: 25px;
+}
+.heading-btn:hover {
+  cursor: pointer;
+  background-color: darkgreen;
+}
+@keyframes increase {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.7);
+  }
+}
+
+/* Go to Camp Section */
+.go-to-camp-section {
+  padding: 50px 75px;
+  background-color: #e5e4e2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+  overflow: hidden;
+}
+.go-camp-p1 {
+  font-family: "Fuzzy Bubbles", serif;
+  color: #1b4d3e;
+  font-size: 23px;
+}
+.go-camp-p2 {
+  font-family: "Merriweather", serif;
+  font-size: 55px;
+}
+.go-camp-p3 {
+  font-family: sans-serif;
+  color: #1b4d3e;
+  font-size: 20px;
+}
+.go-camp-p4 {
+  font-family: sans-serif;
+  color: grey;
+  font-size: 15px;
+}
+.go-camp-div-5 {
+  background-color: green;
+  padding: 15px 25px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: inline-block;
+}
+.go-camp-btn {
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+  font-size: 15px;
+}
+.go-btn-icon {
+  height: 20px;
+  width: 20px;
+}
+.go-camp-div-5:hover {
+  background-color: darkgreen;
+}
+.camp-photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+}
+.camp-image-1 {
+  gap: 20px;
+  align-self: end;
+}
+.camp-img-1 {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+}
+.camp-img-2 {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  border-bottom-right-radius: 50px;
+}
+.camp-image-2 {
+  align-self: end;
+}
+.camp-img-3 {
+  width: 100%;
+  height: 550px;
+  border-radius: 10px;
+  border-bottom-right-radius: 50px;
+}
+.tour-section {
+  background-color: #c0c0c0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0;
+  overflow: hidden;
+}
+.tour-description-div {
+  padding: 50px 250px 50px 50px;
+}
+.tour-feature {
+  gap: 25px;
+}
+.tour-p1 {
+  font-family: "Fuzzy Bubbles", serif;
+  font-size: 23px;
+}
+.tour-p2 {
+  font-family: "Merriweather", serif;
+  font-size: 55px;
+}
+.tour-p3 {
+  font-family: sans-serif;
+  color: #1b4d3e;
+  font-size: 20px;
+}
+.tour-p4 {
+  font-family: sans-serif;
+  font-size: 17px;
+}
+.tour-description-div li {
+  font-size: 15px;
+}
+.feature-icon {
+  stroke: darkgreen;
+  width: 15px;
+  height: 15px;
+}
+.tour-image-div {
+  background-image: url(images/forest.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.tour-image-inner-div {
+  background-color: rgba(1, 50, 32, 0.8);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.tour-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+  padding: 0 50px;
+}
+.tour-image-d {
+  flex-direction: column;
+}
+.tour-img-1 {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  border-bottom-right-radius: 50px;
+}
+.tour-img-2 {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  border-top-right-radius: 50px;
+}
+.tour-img-3 {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+}
+/* Activity Section */
+.activity-section {
+  background-color: #e5e4e2;
+  padding: 75px;
+  overflow: hidden;
+}
+.activity-p1 {
+  font-family: "Fuzzy Bubbles", serif;
+  font-size: 23px;
+}
+.activity-p2 {
+  font-family: "Merriweather", serif;
+  font-size: 55px;
+  margin-bottom: 100px;
+}
+.activity-div-3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 25px;
+  row-gap: 100px;
+  margin-bottom: 50px;
+}
+.activity-inner-div {
+  background-color: azure;
+  padding: 25px;
+  padding-top: 100px;
+  border-radius: 10px;
+  position: relative;
+}
+.activity-inner-div h3 {
+  font-family: "Merriweather", serif;
+}
+.icon-div {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 3px dotted darkgreen;
+  top: -20%;
+  left: 50%;
+  transform: translate(-47%, 0%);
+  position: absolute;
+}
+.activity-text {
+  color: grey;
+  font-family: sans-serif;
+}
+.icon-div img {
+  width: 100%;
+  height: 100%;
+}
+.activity-div-4 {
+  margin: 0 auto;
+}
+.activity-div-5 {
+  margin-top: 50px;
+  text-transform: uppercase;
+  color: grey;
+  font-size: 13px;
+  text-align: center;
+}
+.t-c-icon {
+  width: 13px;
+  width: 13px;
+}
+/* Camping Include Section */
+.include-section {
+  padding: 0;
+  background-color: #c0c0c0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
+}
+.include-description {
+  align-self: center;
+}
+.include-description-inner-div {
+  width: 75%;
+  justify-self: end;
+}
+.include-p1 {
+  font-family: "Fuzzy Bubbles", serif;
+  font-size: 23px;
+}
+.include-p2 {
+  font-family: "Merriweather", serif;
+  font-size: 46px;
+  margin-bottom: 40px;
+}
+.include-p3 {
+  font-family: sans-serif;
+  color: #1b4d3e;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.include-p4 {
+  font-family: sans-serif;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.include-div-5 {
+  background-color: green;
+  padding: 15px 25px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  justify-self: start;
+}
+.include-div-5:hover {
+  background-color: darkgreen;
+}
+.item-include {
+  background-image: url(images/foog-forest.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.item-include-inner-div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(1, 50, 32, 0.7);
+  padding: 50px;
+  gap: 25px;
+}
+.item-div {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.item-inner-div-1 {
+  background-color: #177245;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.item-number {
+  color: white;
+  text-align: right;
+  font-size: 55px;
+}
+.item-inner-div-2 {
+  background-color: azure;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+}
+.item-inner-div-2 h3 {
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+}
+.item-inner-div-2 p {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #536878;
+}
+/* Equipment Rental Section */
+.rental-section {
+  background-color: #e5e4e2;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+}
+.rental-description {
+  align-self: center;
+}
+.rental-p1 {
+  font-family: "Fuzzy Bubbles", serif;
+  font-size: 23px;
+}
+.rental-p2 {
+  font-family: "Merriweather", serif;
+  font-size: 55px;
+  margin-bottom: 45px;
+}
+.rental-p3 {
+  font-family: sans-serif;
+  color: #1b4d3e;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.rental-p4 {
+  font-family: sans-serif;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.rental-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 50px;
+  padding-right: 50px;
+}
+.rental-item-inner-div {
+  display: grid;
+  grid-template-columns: 2fr 4fr 1fr;
+  background-color: white;
+  box-shadow: 0 0px 10px 0 rgba(99, 98, 98, 0.5);
+  border-radius: 10px;
+}
+.rent-item-img-div,
+.rent-item-name {
+  padding: 5px;
+  border-right: 1px solid grey;
+}
+.rent-item-name-1 {
+  padding: 5px 10px 0;
+}
+.rent-item-name-1 h3 {
+  font-family: "Merriweather", serif;
+  border-bottom: 2px dotted grey;
+  padding-bottom: 15px;
+}
+.rent-item-name-2 {
+  padding: 5px 10px 5px;
+}
+.rent-item-name li {
+  border-right: 2px solid grey;
+  padding-right: 10px;
+  color: grey;
+}
+.rent-item-name li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+.rent-item-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b4d3e;
+  font-family: serif;
+  font-size: 25px;
+  opacity: 0.7;
+}
+.rent-item-img-div img {
+  width: 100%;
+  height: 100%;
+}
+/* Camp Site Section */
+.camp-site-section {
+  padding: 75px;
+  background-color: #e5e4e2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.camp-site-p1 {
+  font-family: "Fuzzy Bubbles", serif;
+  font-size: 23px;
+  text-align: center;
+}
+.camp-site-p2 {
+  font-family: "Merriweather", serif;
+  font-size: 55px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+.camp-site-div-3 {
+  width: 50%;
+}
+.camp-site-p3 {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #3d3e3e;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.camp-site-div-4 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  margin: 50px 0;
+}
+.camp-site-img {
+  height: 500px;
+  width: 100%;
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.camp-site-img-1 {
+  background-image: url(images/site-1.jpg);
+}
+.camp-site-name {
+  width: 100%;
+  border-radius: 20px;
+  height: 0;
+  gap: 20px;
+  background-image: linear-gradient(transparent, #177245);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform-origin: bottom;
+  transition: 0.6s all ease;
+  overflow: hidden;
+}
+.camp-site-name h2 {
+  font-family: "Merriweather", serif;
+}
+.camp-site-img-1:hover .camp-site-name {
+  height: 100%;
+}
+.camp-site-img-2:hover .camp-site-name {
+  height: 100%;
+}
+.camp-site-img-3:hover .camp-site-name {
+  height: 100%;
+}
+.camp-site-img-2 {
+  background-image: url(images/site-2.jpg);
+}
+.camp-site-img-3 {
+  background-image: url(images/site-3.jpg);
+}
+.camp-site-div-5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.camp-site-icon-div {
+  padding: 0 50px;
+  gap: 15px;
+  border-right: 2px solid grey;
+  margin-bottom: 40px;
+}
+.camp-site-icon-div:last-child {
+  border: none;
+}
+.site-img {
+  padding: 5px;
+  border: 3px dotted #177245;
+}
+.site-img img {
+  height: 100px;
+  width: 100px;
+}
+.camp-site-icon-div h3 {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  font-size: 23px;
+}
+.camp-site-p4 {
+  text-align: center;
+}
+.camp-site-p4 a {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: gray;
+  text-align: center;
+}
+.pdf-icon {
+  height: 15px;
+  width: 15px;
+}
+.camp-site-p4 a:hover {
+  color: darkgreen;
+}
+/* Package Section */
+.package-section {
+  background-color: #e5e4e2;
+  padding: 100px 50px 50px;
+  overflow: visible;
+}
+.package-div {
+  height: 550px;
+  background-image: url(images/photo-5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  border-radius: 20px;
+  overflow: visible;
+}
+.package-inner-div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-attachment: scroll;
+  position: relative;
+  overflow: visible;
+}
+.package-inner-div {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgba(1, 50, 32, 0.6);
+}
+.package-inner-div img {
+  width: 50%;
+  height: 130%;
+  top: -165px;
+  right: -10px;
+  position: absolute;
+}
+.package-description {
+  padding: 50px;
+  align-self: center;
+  justify-self: center;
+}
+.package-p1 {
+  font-family: "Fuzzy Bubbles", serif;
+  font-size: 23px;
+  color: white;
+}
+.package-p2 {
+  font-family: "Merriweather", serif;
+  font-size: 55px;
+  color: white;
+  margin-bottom: 30px;
+}
+.package-p3 {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: white;
+  margin-bottom: 20px;
+}
+.package-icon-div {
+  align-self: flex-start;
+}
+/* Visitors Gallery Section */
+.visit-gallery-section {
+  padding: 50px;
+  padding-bottom: 75px;
+  background-color: #e5e4e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.visit-p1 {
+  font-family: "Fuzzy Bubbles", serif;
+  font-size: 23px;
+  text-align: center;
+}
+.visit-p2 {
+  font-family: "Merriweather", serif;
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.visit-gallery-div-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  margin-bottom: 25px;
+}
+.visit-gallery-img-div-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.visit-gallery-img-div-1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.visit-gallery-img-div-2 img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.visit-gallery-div-4 {
+  margin-bottom: 50px;
+}
+.visit-gallery-div-4 img {
+  width: 10%;
+  margin-right: 20px;
+}
+.visitors {
+  align-self: center;
+}
+.visit-p3 {
+  font-family: sans-serif;
+  color: gray;
+  font-size: 15px;
+}
+.visit-gallery-div-5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.visit-gallery-div-5-inner {
+  padding: 25px;
+  background-color: white;
+  border-radius: 20px;
+}
+.visit-icon-div {
+  padding: 2px;
+  border: 3px dotted darkgreen;
+  margin-bottom: 20px;
+}
+.visit-icon-div img {
+  width: 100%;
+  height: 100px;
+}
+.visit-gallery-div-5-inner {
+  text-align: center;
+}
+.visit-icon-p {
+  font-family: sans-serif;
+  text-align: center;
+  color: #575757;
+}
+/* Holiday Offer Section */
+.holiday-offer-section {
+  background-image: url(images/visit-gallery-5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 1500px;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding: 0;
+  overflow: hidden;
+}
+.holiday-offer-inner {
+  background-color: rgba(1, 50, 32, 0.7);
+  padding: 100px 0;
+}
+.holiday-offer-p1 {
+  font-family: "Fuzzy Bubbles", serif;
+  font-size: 23px;
+  text-align: center;
+}
+.holiday-offer-p2 {
+  font-family: "Merriweather", serif;
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.holiday-offer-p3 {
+  font-family: sans-serif;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* Booking Section */
+.booking-section {
+  padding: 75px 50px;
+  background-color: #e5e4e2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+.booking-form-div {
+  overflow: hidden;
+}
+.booking-form {
+  background-color: #177245;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 35px;
+  row-gap: 5px;
+}
+.booking-form p {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: darkgray;
+}
+.booking-form input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.booking-form input:focus {
+  outline: none;
+}
+.textarea-div {
+  grid-column: 1/-1;
+  margin-bottom: 20px;
+}
+.booking-form textarea {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 150px;
+}
+.booking-form textarea:focus {
+  outline: none;
+}
+.form-btn {
+  grid-column: 1/-1;
+  justify-self: center;
+}
+.book-btn {
+  background-color: transparent;
+  font-family: "Merriweather", serif;
+  height: 40px;
+  padding: 0;
+}
+.booking-description {
+  align-self: center;
+  padding-left: 20px;
+}
+.booking-p1 {
+  font-family: "Fuzzy Bubbles", serif;
+  font-size: 23px;
+}
+.booking-p2 {
+  font-family: "Merriweather", serif;
+  font-size: 55px;
+  margin-bottom: 40px;
+}
+.booking-p3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #177245;
+}
+.booking-p4 {
+  font-family: sans-serif;
+  font-size: 17px;
+}
+.booking-description h3 {
+  font-family: "Merriweather", serif;
+  margin-top: 35px;
+}
+.book-icon {
+  stroke: #177245;
+  width: 30px;
+  height: 30px;
+}
+.booking-description ul li {
+  color: #575757;
+  margin-top: 25px;
+}
+/* Support Section */
+.support-section {
+  background-color: #e5e4e2;
+  text-align: center;
+  padding: 50px 25px 70px;
+  gap: 30px;
+  overflow: hidden;
+}
+.support-div-1 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+.support-div-1 img {
+  width: 100%;
+  opacity: 0.6;
+}
+.support-div-1 img:hover {
+  opacity: 1;
+}
+/* Picture Section */
+.pic-section {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.pic-section img {
+  width: 100%;
+}
+/* End Section */
+.end-section {
+  background-image: url(images/end-background.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  padding: 0;
+}
+.end-div-inner {
+  width: 100%;
+  padding: 50px 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.end-div-1 {
+  padding-left: 50px;
+}
+.end-div-1 img {
+  width: 65%;
+}
+.end-p1 {
+  margin-top: 25px;
+  color: #177245;
+  font-family: "Merriweather", serif;
+}
+.end-p2 {
+  font-family: sans-serif;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.end-div-2 h3 {
+  font-family: "Merriweather", serif;
+  margin-bottom: 10px;
+}
+.end-section ul li {
+  margin-top: 30px;
+}
+.end-section ul li a {
+  color: #177245;
+  text-decoration: none;
+  font-weight: bold;
+}
+.end-section font {
+  color: #343333;
+}
+.end-section a:hover font {
+  color: #177245;
+}
+.follow-us {
+  gap: 10px;
+  margin-top: 20px;
+}
+.follow-us div {
+  border-radius: 3px;
+  background-color: #177245;
+  padding: 5px;
+}
+.follow-us div:hover {
+  background-color: #1b4d3e;
+}
+/* Footer */
+footer {
+  background-color: #1b4d3e;
+  color: white;
+  padding: 25px 0 10px;
+}
+footer p {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* Responsive */
+@media screen and (max-width: 767px) {
+  .main-heading-div {
+    background-size: 100% 400px;
+    height: 400px;
+  }
+  .main-heading-section {
+    height: 400px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .p1 {
+    font-size: 15px;
+  }
+  .p2 {
+    font-size: 15px;
+  }
+  .heading-btn {
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+  .head-icon,
+  .btn-icon {
+    width: 15px;
+    height: 15px;
+  }
+  .go-to-camp-section {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    padding: 50px 30px;
+  }
+  .go-camp-p1 {
+    text-align: center;
+  }
+  .go-camp-p2 {
+    text-align: center;
+  }
+  .go-camp-p3 {
+    text-align: center;
+  }
+  .go-camp-p4 {
+    text-align: center;
+  }
+  .camp-photo {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .camp-img-1,
+  .camp-img-2 {
+    height: 450px;
+  }
+  .camp-img-3 {
+    height: 850px;
+  }
+  .tour-section {
+    grid-template-columns: 1fr;
+  }
+  .tour-description-div {
+    order: 1;
+    padding: 25px;
+  }
+  .tour-image-inner-div {
+    justify-content: center;
+  }
+  .tour-image-div {
+    order: 2;
+    padding: 0;
+  }
+  .tour-img {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+    padding: 0 50px;
+  }
+  .tour-img-1 {
+    width: 100%;
+    height: 700px;
+  }
+  .tour-img-2 {
+    width: 100%;
+    height: 300px;
+  }
+  .tour-img-3 {
+    width: 100%;
+    height: 300px;
+  }
+  .tour-p1 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .tour-p2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .tour-p3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .tour-p4 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .tour-description-div li {
+    font-size: 10px;
+    text-align: center;
+  }
+  .feature-icon {
+    width: 10px;
+    height: 10px;
+  }
+  .tour-feature {
+    justify-content: center;
+  }
+  .activity-section {
+    background-color: #e5e4e2;
+    padding: 50px;
+  }
+  .activity-div-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+  .activity-p2 {
+    font-family: "Merriweather", serif;
+    font-size: 45px;
+    margin-bottom: 100px;
+  }
+  .icon-div {
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .activity-inner-div {
+    padding: 25px;
+  }
+  .include-section {
+    grid-template-columns: 1fr;
+  }
+  .include-description-inner-div {
+    width: 100%;
+    justify-self: start;
+    padding: 25px;
+  }
+  .include-p1 {
+    text-align: center;
+  }
+  .include-p2 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .include-p3 {
+    text-align: center;
+  }
+  .include-p4 {
+    text-align: center;
+  }
+  .item-div {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  .item-inner-div-1 {
+    background-color: #177245;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    justify-content: center;
+  }
+  .item-number {
+    font-size: 45px;
+    text-align: center;
+  }
+  .item-inner-div-2 {
+    background-color: azure;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    padding: 20px;
+  }
+  .item-inner-div-2 h3 {
+    text-align: center;
+  }
+  .item-inner-div-2 p {
+    text-align: center;
+  }
+  .include-div-5 {
+    justify-self: center;
+  }
+  .rental-section {
+    padding: 30px;
+    grid-template-columns: 1fr;
+  }
+  .rental-description {
+    order: 1;
+    margin-bottom: 50px;
+  }
+  .rental-item {
+    order: 2;
+    padding-right: 0;
+    justify-self: center;
+  }
+  .rental-p1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .rental-p2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .rental-p3 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .rental-p4 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .camp-site-section {
+    padding: 30px;
+  }
+  .camp-site-p1 {
+    font-size: 20px;
+  }
+  .camp-site-p2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+  .camp-site-div-3 {
+    width: 75%;
+  }
+  .camp-site-p3 {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .camp-site-div-5 {
+    grid-template-columns: 1fr;
+  }
+  .camp-site-icon-div {
+    padding: 40px 0;
+    gap: 15px;
+    border-right: none;
+    border-bottom: 2px solid grey;
+  }
+  .camp-site-icon-div:last-child {
+    border: none;
+  }
+  .site-img img {
+    height: 150px;
+    width: 150px;
+  }
+  .camp-site-icon-div h3 {
+    font-size: 25px;
+  }
+  .camp-site-div-4 {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .camp-site-img {
+    height: 400px;
+    background-size: 100% 400px;
+  }
+  .camp-site-img-1 {
+    grid-column: 1/-1;
+  }
+  .package-section {
+    padding: 30px;
+    overflow: hidden;
+  }
+  .package-div {
+    height: 100%;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+  }
+  .package-inner-div {
+    grid-template-columns: 1fr;
+    row-gap: 0px;
+  }
+  .package-img {
+    justify-self: center;
+  }
+  .package-inner-div img {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 400px;
+    justify-self: center;
+    position: relative;
+  }
+  .package-description {
+    padding: 20px 0px;
+    justify-self: center;
+  }
+  .package-p1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .package-p2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .package-p3 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .package-icon-div {
+    align-self: center;
+  }
+  .visit-gallery-section {
+    padding: 30px;
+  }
+  .visit-p1 {
+    font-size: 23px;
+  }
+  .visit-p2 {
+    font-size: 45px;
+  }
+  .visit-gallery-div-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  .visit-gallery-img-div-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .visit-gallery-img-div-1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .visit-gallery-img-div-2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .visit-gallery-div-4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .visit-gallery-div-4 img {
+    width: 10%;
+    margin-right: 0px;
+    margin-bottom: 10x;
+  }
+  .visitors {
+    align-self: center;
+  }
+  .visit-p3 {
+    font-size: 8px;
+    text-align: center;
+  }
+  .visit-gallery-div-5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .holiday-offer-section {
+    background-size: 100% 100%;
+    background-attachment: scroll;
+  }
+  .holiday-offer-p1 {
+    font-size: 20px;
+  }
+  .holiday-offer-p2 {
+    font-size: 45px;
+  }
+  .holiday-offer-p3 {
+    font-size: 15px;
+  }
+  .booking-section {
+    padding: 50px 25px;
+    grid-template-columns: 1fr;
+  }
+  .booking-form {
+    padding: 20px 10px;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    overflow: hidden;
+  }
+  .booking-description {
+    order: 1;
+    margin-bottom: 30px;
+    padding-right: 0;
+    text-align: center;
+  }
+  .booking-form-div {
+    order: 2;
+  }
+  .support-div-1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pic-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .end-div-inner {
+    padding: 50px 0;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .end-div-1 {
+    padding-left: 0px;
+  }
+  .follow-us {
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .activity-p2 {
+    font-size: 30px;
+    margin-bottom: 75px;
+  }
+  .include-description-inner-div {
+    padding: 15px;
+  }
+  .include-p1 {
+    font-size: 23px;
+  }
+  .include-p2 {
+    font-size: 28px;
+  }
+  .include-p3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .include-p4 {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+  .rental-section {
+    padding: 20px;
+  }
+  .rental-p1 {
+    font-size: 17px;
+  }
+  .rental-p2 {
+    font-size: 38px;
+  }
+  .rental-p3 {
+    font-size: 14px;
+  }
+  .rental-p4 {
+    font-size: 12px;
+  }
+  .rent-btn-a {
+    font-size: 10px;
+  }
+  .rent-item-name-1 {
+    padding: 5px 10px 0;
+  }
+  .rent-item-name-1 h3 {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  .rent-item-name li {
+    padding-right: 10px;
+    font-size: 10px;
+  }
+  .rent-item-price {
+    font-size: 15px;
+  }
+  .camp-site-section {
+    padding: 35px;
+  }
+  .camp-site-p1 {
+    font-size: 17px;
+  }
+  .camp-site-p2 {
+    font-size: 38px;
+    margin-bottom: 40px;
+  }
+  .camp-site-div-3 {
+    width: 75%;
+  }
+  .camp-site-p3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .package-section {
+    padding: 20px;
+  }
+  .package-inner-div img {
+    height: 350px;
+  }
+  .package-description {
+    padding: 20px 0px;
+  }
+  .package-p1 {
+    font-size: 17px;
+  }
+  .package-p2 {
+    font-size: 35px;
+  }
+  .package-p3 {
+    font-size: 15px;
+  }
+  .booking-p1 {
+    font-size: 17px;
+  }
+  .booking-p2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+  .booking-p3 {
+    font-size: 17px;
+  }
+  .booking-p4 {
+    font-size: 17px;
+  }
+  .book-icon {
+    height: 20px;
+    width: 20px;
+  }
+  footer p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 275px) {
+  .go-to-camp-section {
+    padding: 50px 0;
+  }
+  .go-camp-p1 {
+    font-size: 10px;
+  }
+  .go-camp-p2 {
+    font-size: 20px;
+  }
+  .go-camp-p3 {
+    font-size: 10px;
+  }
+  .go-camp-p4 {
+    font-size: 8px;
+  }
+  .go-camp-btn {
+    font-size: 10px;
+  }
+  .go-btn-icon {
+    height: 10px;
+    width: 10px;
+  }
+  .go-camp-div-5 {
+    padding: 10px;
+  }
+  .activity-section {
+    padding: 25px;
+  }
+  .activity-p2 {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .activity-p1 {
+    font-size: 15px;
+  }
+  .activity-inner-div {
+    padding: 15px;
+  }
+  .include-description-inner-div {
+    padding: 5px;
+  }
+  .include-p1 {
+    font-size: 15px;
+  }
+  .include-p2 {
+    font-size: 18px;
+  }
+  .include-p3 {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .include-p4 {
+    font-size: 10px;
+    margin-bottom: 30px;
+  }
+  .include-div-5 {
+    padding: 10px;
+  }
+  .camp-site-div-4 {
+    gap: 35px;
+  }
+  .camp-site-img {
+    height: 300px;
+    background-size: 100% 300px;
+  }
+  .visit-gallery-section {
+    padding: 20px;
+  }
+  .visit-p1 {
+    font-size: 20px;
+  }
+  .visit-p2 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 249px) {
+  .heading {
+    font-size: 25px;
+  }
+  .p1 {
+    font-size: 10px;
+  }
+  .p2 {
+    font-size: 10px;
+  }
+  .heading-btn {
+    padding: 3px 10px;
+    font-size: 10px;
+  }
+  .head-icon,
+  .btn-icon {
+    width: 10px;
+    height: 10px;
+  }
+  .tour-description-div {
+    padding: 15px;
+  }
+  .tour-p1 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .tour-p2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .tour-p3 {
+    font-size: 10px;
+    text-align: center;
+  }
+  .tour-p4 {
+    font-size: 8px;
+    text-align: center;
+  }
+  .tour-description-div li {
+    font-size: 7px;
+    text-align: center;
+  }
+  .feature-icon {
+    width: 7px;
+    height: 7px;
+  }
+  .item-include-inner-div {
+    padding: 20px;
+  }
+  .item-number {
+    font-size: 40px;
+  }
+  .item-inner-div-2 {
+    padding: 10px;
+  }
+  .item-inner-div-2 h3 {
+    font-size: 20px;
+  }
+  .item-inner-div-2 p {
+    font-size: 10px;
+  }
+  .rental-section {
+    padding: 10px;
+  }
+  .rental-p1 {
+    font-size: 15px;
+  }
+  .rental-p2 {
+    font-size: 30px;
+  }
+  .rental-p3 {
+    font-size: 12px;
+  }
+  .rental-p4 {
+    font-size: 10px;
+  }
+  .rent-btn-a {
+    font-size: 5px;
+  }
+  .camp-site-section {
+    padding: 35px;
+  }
+  .camp-site-p1 {
+    font-size: 15px;
+  }
+  .camp-site-p2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+  }
+  .camp-site-div-3 {
+    width: 100%;
+  }
+  .camp-site-p3 {
+    font-size: 12px;
+    margin-bottom: 28px;
+  }
+  .booking-section {
+    padding: 50px 15px;
+  }
+  .booking-form {
+    padding: 20px 5px;
+  }
+  .booking-description {
+    padding: 0;
+    overflow: hidden;
+  }
+  .booking-p1 {
+    font-size: 17px;
+  }
+  .booking-p2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+  .booking-p3 {
+    font-size: 17px;
+  }
+  .booking-p4 {
+    font-size: 17px;
+  }
+  .book-icon {
+    height: 20px;
+    width: 20px;
+  }
+  footer {
+    padding: 20px 0 5px;
+  }
+  footer p {
+    font-size: 5px;
+  }
+}
+@media screen and (max-width: 200px) {
+  .activity-section {
+    padding: 5px;
+  }
+  .activity-inner-div {
+    padding: 5px;
+  }
+  .include-p1 {
+    font-size: 8px;
+  }
+  .include-p2 {
+    font-size: 8px;
+  }
+  .include-p3 {
+    font-size: 8px;
+    margin-bottom: 20px;
+  }
+  .include-p4 {
+    font-size: 5px;
+    margin-bottom: 30px;
+  }
+  .item-include-inner-div {
+    padding: 10px;
+  }
+  .item-number {
+    font-size: 25px;
+  }
+  .item-inner-div-2 {
+    padding: 5px;
+  }
+  .item-inner-div-2 h3 {
+    font-size: 10px;
+  }
+  .item-inner-div-2 p {
+    font-size: 8px;
+  }
+  .rental-section {
+    padding: 5px;
+  }
+  .rental-p2 {
+    font-size: 20px;
+  }
+  .rental-item-inner-div {
+    grid-template-columns: 1fr;
+  }
+  .rent-item-img-div,
+  .rent-item-name {
+    padding: 2px;
+    border-bottom: 1px solid grey;
+    border-right: 0;
+  }
+  .rent-item-name-1 {
+    padding: 2px 10px 0;
+  }
+  .rent-item-name-1 h3 {
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 8px;
+  }
+  .rent-item-name-2 {
+    padding: 5px 10px 5px;
+  }
+  .rent-item-name li {
+    padding-right: 10px;
+    font-size: 7px;
+  }
+  .rent-item-price {
+    font-size: 10px;
+  }
+  .camp-site-section {
+    padding: 25px;
+  }
+  .camp-site-p2 {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  .camp-site-icon-div {
+    padding: 20px 0;
+  }
+  .site-img img {
+    height: 100px;
+    width: 100px;
+  }
+  .camp-site-icon-div h3 {
+    font-size: 23px;
+  }
+  .camp-site-p4 a {
+    font-size: 8px;
+  }
+  .pdf-icon {
+    height: 8px;
+    width: 8px;
+  }
+  .camp-site-name h2 {
+    font-size: 20px;
+  }
+  .camp-site-div-4 {
+    gap: 35px;
+  }
+  .camp-site-img {
+    height: 300px;
+    background-size: 100% 300px;
+  }
+  .package-section {
+    padding: 10px;
+  }
+  .package-inner-div img {
+    height: 300px;
+  }
+  .package-description {
+    padding: 20px 0px;
+  }
+  .package-p1 {
+    font-size: 15px;
+  }
+  .package-p2 {
+    font-size: 25px;
+  }
+  .package-p3 {
+    font-size: 13px;
+  }
+  .visit-gallery-section {
+    padding: 15px;
+  }
+  .visit-p1 {
+    font-size: 17px;
+  }
+  .visit-p2 {
+    font-size: 25px;
+  }
+  .visit-gallery-div-5-inner {
+    padding: 10px;
+  }
+  .visit-gallery-div-5-inner h3 {
+    font-size: 18px;
+  }
+  .holiday-offer-p1 {
+    font-size: 15px;
+  }
+  .holiday-offer-p2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .holiday-offer-p3 {
+    font-size: 10px;
+  }
+  .booking-form {
+    width: 75%;
+  }
+  .booking-section {
+    padding: 50px 10px;
+  }
+  .booking-form {
+    padding: 20px 5px;
+  }
+  .booking-form input {
+    width: 50%;
+  }
+  .booking-form h6 {
+    font-size: 10px;
+  }
+  .support-section {
+    padding: 50px 5px;
+  }
+  .support-section h2 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 140px) {
+  .tour-description-div {
+    padding: 0px;
+  }
+  .tour-p1 {
+    font-size: 8px;
+    text-align: center;
+  }
+  .tour-p2 {
+    font-size: 10px;
+    text-align: center;
+  }
+  .tour-p3 {
+    font-size: 5px;
+    text-align: center;
+  }
+  .tour-p4 {
+    font-size: 5px;
+    text-align: center;
+  }
+  .tour-feature {
+    gap: 1px;
+    flex-direction: column;
+  }
+  .tour-description-div li {
+    font-size: 5px;
+    text-align: center;
+  }
+  .feature-icon {
+    width: 5px;
+    height: 5px;
+  }
+  .tour-img {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+    padding: 0 10px;
+  }
+  .tour-img-1 {
+    width: 100%;
+    height: 400px;
+  }
+  .tour-img-2 {
+    width: 100%;
+    height: 150px;
+  }
+  .tour-img-3 {
+    width: 100%;
+    height: 150px;
+  }
+  .activity-section {
+    padding: 2px;
+  }
+  .activity-p1 {
+    font-size: 8px;
+  }
+  .activity-p2 {
+    font-size: 13px;
+    margin-bottom: 50px;
+  }
+  .activity-div-3 {
+    row-gap: 25px;
+    margin-bottom: 25px;
+  }
+  .activity-inner-div {
+    padding: 2px;
+  }
+  .icon-div {
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    border: 1px dotted darkgreen;
+  }
+  .activity-inner-div h3 {
+    font-size: 8px;
+  }
+  .activity-text {
+    font-size: 5px;
+  }
+  .camp-site-name h2 {
+    font-size: 8px;
+  }
+  .camp-site-img {
+    height: 200px;
+    background-size: 100% 200px;
+  }
+  .visit-gallery-div-5-inner {
+    padding: 5px;
+  }
+  .visit-gallery-div-5-inner h3 {
+    font-size: 13px;
+  }
+  .visit-icon-p {
+    font-size: 10px;
+  }
+  .booking-description ul li {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 134px) {
+  .heading {
+    font-size: 15px;
+  }
+  .p1 {
+    font-size: 5px;
+  }
+  .p2 {
+    font-size: 5px;
+  }
+  .heading-btn {
+    padding: 2px 5px;
+    font-size: 5px;
+  }
+  .head-icon,
+  .btn-icon {
+    width: 5px;
+    height: 5px;
+  }
+  .go-camp-div-5,
+  .include-div-5 {
+    padding: 2px;
+  }
+  .go-camp-btn {
+    font-size: 5px;
+  }
+  .go-btn-icon {
+    width: 5px;
+    height: 5px;
+  }
+  .rental-section {
+    padding: 2px;
+  }
+  .rental-p1 {
+    font-size: 10px;
+  }
+  .rental-p2 {
+    font-size: 15px;
+  }
+  .rental-p3 {
+    font-size: 10px;
+  }
+  .rental-p4 {
+    font-size: 8px;
+  }
+  .rent-btn-a {
+    font-size: 5px;
+  }
+  .rent-btn-a {
+    font-size: 2px;
+  }
+  .camp-site-section {
+    padding: 25px;
+  }
+  .camp-site-p1 {
+    font-size: 10px;
+  }
+  .camp-site-p2 {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+  .camp-site-p3 {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .camp-site-icon-div {
+    padding: 15px 0;
+  }
+  .site-img {
+    padding: 3px;
+    border: 2px dotted #177245;
+  }
+  .site-img img {
+    height: 70px;
+    width: 70px;
+  }
+  .camp-site-icon-div h3 {
+    font-size: 18px;
+  }
+  .package-section {
+    padding: 10px;
+  }
+  .package-p1 {
+    font-size: 15px;
+  }
+  .package-p2 {
+    font-size: 18px;
+  }
+  .package-p3 {
+    font-size: 13px;
+  }
+  .visit-gallery-section {
+    padding: 5px;
+  }
+  .visit-p1 {
+    font-size: 15px;
+  }
+  .visit-p2 {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .visit-p3 {
+    font-size: 5px;
+  }
+  .holiday-offer-p1 {
+    font-size: 17px;
+  }
+  .holiday-offer-p2 {
+    font-size: 20px;
+  }
+  .holiday-offer-p3 {
+    font-size: 13px;
+  }
+  .booking-p1 {
+    font-size: 15px;
+  }
+  .booking-p2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .booking-p3 {
+    font-size: 13px;
+  }
+  .booking-p4 {
+    font-size: 13px;
+  }
+  .book-icon {
+    height: 18px;
+    width: 18px;
+  }
+  .booking-description h3 {
+    font-size: 15px;
+  }
+  .end-section h3 {
+    font-size: 9px;
+  }
+  .end-section li {
+    font-size: 8px;
+  }
+  .end-p1,
+  .end-p2 {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 90px) {
+  .go-camp-p2 {
+    font-size: 10px;
+  }
+  .go-camp-div-5 {
+    padding: 5px;
+  }
+  .camp-img-1,
+  .camp-img-2 {
+    height: 250px;
+  }
+  .camp-img-3 {
+    height: 400px;
+  }
+  .activity-p1 {
+    font-size: 5px;
+  }
+  .activity-p2 {
+    font-size: 7px;
+    margin-bottom: 25px;
+  }
+  .activity-inner-div {
+    padding: 2px;
+  }
+  .icon-div {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border: 1px dotted darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .activity-inner-div h3 {
+    font-size: 5px;
+  }
+  .activity-text {
+    font-size: 3px;
+  }
+  .activity-div-5 {
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 5px;
+    text-align: center;
+  }
+  .t-c-icon {
+    width: 5px;
+    width: 5px;
+  }
+  .include-description {
+    padding: 0px;
+  }
+  .include-div-5 {
+    padding: 5px;
+  }
+  .include-p1 {
+    font-size: 5px;
+  }
+  .include-p2 {
+    font-size: 4px;
+    margin-bottom: 20px;
+  }
+  .include-p3 {
+    font-size: 4px;
+    margin-bottom: 10px;
+  }
+  .include-p4 {
+    font-size: 4px;
+    margin-bottom: 30px;
+  }
+  .item-include-inner-div {
+    padding: 1px;
+  }
+  .item-number {
+    font-size: 8px;
+  }
+  .item-inner-div-2 {
+    padding: 2px;
+  }
+  .item-inner-div-2 h3 {
+    font-size: 5px;
+  }
+  .item-inner-div-2 p {
+    font-size: 4px;
+  }
+  .rental-section {
+    padding: 0;
+  }
+  .rental-p1 {
+    font-size: 8px;
+  }
+  .rental-p2 {
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
+  .rental-p3 {
+    font-size: 8px;
+  }
+  .rental-p4 {
+    font-size: 7px;
+  }
+  .rent-btn-a {
+    font-size: 5px;
+  }
+  .rent-item-img-div,
+  .rent-item-name {
+    padding: 1px;
+  }
+  .rent-item-name-1 {
+    padding: 1px 5px 0;
+  }
+  .rent-item-name-1 h3 {
+    font-size: 5px;
+    padding-bottom: 5px;
+  }
+  .rent-item-name-2 {
+    padding: 2px 5px;
+  }
+  .rent-item-name li {
+    padding-right: 5px;
+    font-size: 5px;
+  }
+  .rent-item-price {
+    font-size: 8px;
+  }
+  .camp-site-section {
+    padding: 5px;
+  }
+  .camp-site-p1 {
+    font-size: 8px;
+  }
+  .camp-site-p2 {
+    font-size: 8px;
+    margin-bottom: 15px;
+  }
+  .camp-site-p3 {
+    font-size: 8px;
+    margin-bottom: 15px;
+  }
+  .site-img {
+    padding: 2px;
+  }
+  .site-img img {
+    height: 40px;
+    width: 40px;
+  }
+  .camp-site-icon-div h3 {
+    font-size: 10px;
+  }
+  .camp-site-p4 a {
+    font-size: 5px;
+  }
+  .pdf-icon {
+    height: 5px;
+    width: 5px;
+  }
+  .package-section {
+    padding: 5px;
+  }
+  .package-p1 {
+    font-size: 8px;
+  }
+  .package-p2 {
+    font-size: 10px;
+  }
+  .package-p3 {
+    font-size: 8px;
+  }
+  .visit-p1 {
+    font-size: 8px;
+  }
+  .visit-p2 {
+    font-size: 10px;
+  }
+  .visit-gallery-div-5-inner {
+    padding: 2px;
+  }
+  .visit-gallery-div-5-inner h3 {
+    font-size: 7px;
+  }
+  .visit-icon-p {
+    font-size: 5px;
+  }
+  .holiday-offer-p1 {
+    font-size: 8px;
+  }
+  .holiday-offer-p2 {
+    font-size: 10px;
+  }
+  .holiday-offer-p3 {
+    font-size: 5px;
+  }
+  .booking-p1 {
+    font-size: 8px;
+  }
+  .booking-p2 {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .booking-p3 {
+    font-size: 5px;
+  }
+  .booking-p4 {
+    font-size: 5px;
+  }
+  .booking-description h3 {
+    font-size: 8px;
+  }
+  .support-section {
+    padding: 25px 1px;
+  }
+  .support-section h2 {
+    font-size: 8px;
+  }
+  .support-div-1 {
+    gap: 10px;
+  }
+  .follow-us {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+  .main-heading-div {
+    background-size: 100% 525px;
+    height: 525px;
+  }
+  .main-heading-section {
+    height: 525px;
+  }
+  .go-to-camp-section {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .tour-section {
+    grid-template-columns: 1fr;
+  }
+  .tour-description-div {
+    order: 1;
+    padding: 50px;
+  }
+  .tour-image-div {
+    order: 2;
+    padding: 0;
+  }
+  .feature-list-1 {
+    margin-right: 100px;
+  }
+  .tour-image-inner-div {
+    justify-content: center;
+    column-gap: 50px;
+  }
+  .tour-img-1 {
+    width: 100%;
+    height: 600px;
+  }
+  .tour-img-2 {
+    width: 100%;
+    height: 250px;
+  }
+  .tour-img-3 {
+    width: 100%;
+    height: 250px;
+  }
+  .activity-div-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .include-section {
+    grid-template-columns: 1fr;
+  }
+  .include-description-inner-div {
+    width: 100%;
+    justify-self: start;
+    padding: 50px;
+  }
+  .include-p2 {
+    font-size: 55px;
+  }
+  .item-div {
+    width: 100%;
+    grid-template-columns: 1fr 3fr;
+  }
+  .rental-section {
+    grid-template-columns: 1fr;
+  }
+  .rental-description {
+    order: 1;
+    margin-bottom: 50px;
+  }
+  .rental-item {
+    order: 2;
+    padding-right: 0;
+  }
+  .camp-site-section {
+    padding: 50px;
+  }
+  .camp-site-icon-div {
+    padding: 0 40px;
+  }
+  .site-img img {
+    height: 75px;
+    width: 75px;
+  }
+  .camp-site-icon-div h3 {
+    font-size: 20px;
+  }
+  .camp-site-div-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .camp-site-img {
+    height: 500px;
+    background-size: 100% 500px;
+  }
+  .camp-site-img-1 {
+    grid-column: 1/-1;
+  }
+  .package-section {
+    padding: 50px;
+  }
+  .package-div {
+    height: 100%;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+  }
+  .package-inner-div {
+    grid-template-columns: 1fr;
+    row-gap: 0px;
+  }
+  .package-img {
+    justify-self: center;
+  }
+  .package-inner-div img {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 400px;
+    justify-self: center;
+    position: relative;
+  }
+  .package-description {
+    padding: 50px;
+    justify-self: center;
+  }
+  .package-p1 {
+    font-size: 23px;
+    text-align: center;
+  }
+  .package-p2 {
+    font-size: 55px;
+    text-align: center;
+  }
+  .package-p3 {
+    text-align: center;
+  }
+  .package-icon-div {
+    align-self: center;
+  }
+  .visit-gallery-div-3 {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  .visit-gallery-div-5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .holiday-offer-section {
+    background-size: 100% 100%;
+    background-attachment: scroll;
+  }
+  .booking-section {
+    grid-template-columns: 1fr;
+  }
+  .booking-description {
+    order: 1;
+    margin-bottom: 30px;
+  }
+  .booking-form-div {
+    order: 2;
+  }
+  .support-div-1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .end-div-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+  .end-div-1 {
+    padding-left: 0px;
+  }
+}
